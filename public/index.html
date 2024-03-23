@@ -10,7 +10,7 @@
     </style>
     
     <meta charset="utf-8">
-    <title>skydeep</title>
+    <title>Karnataka State Police - ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="https://assets-global.website-files.com/64e42c771feba79c99920efb/css/skydeep.webflow.325f9b92c.css"
@@ -367,7 +367,7 @@ body.dark-mode{
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <p class="paragraph-2">Crime overview</p>
+                            <p class="paragraph-2" id ="ManagementLink">Crime overview</p>
                         </a><a href="#" class="nav-link-4 w-inline-block">
                             <div class="embed-icon-2 w-embed"><svg width="15" height="16" viewBox="0 0 15 16"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -915,6 +915,10 @@ body.dark-mode{
         document.getElementById('taskManagementLink').addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default link behavior
         window.location.href = 'dashboard1.html'; // Replace 'your-new-page.html' with the URL of the new page
+
+        document.getElementById('ManagementLink').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = 'index.html'; // Replace 'your-new-page.html' with the URL of the new 
     });
 
 
