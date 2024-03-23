@@ -61,7 +61,7 @@ const Signup: NextPage = () => {
 
     // Redirect to the dashboard1.html page with the email as a query parameter
     Router.push({
-      pathname: "/dashboard1.html",
+      pathname: "/index.html",
       query: { email: email }
     });
 
